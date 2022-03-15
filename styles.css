@@ -1,56 +1,37 @@
-header{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: #06065f;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loterikamy-Simulador de Loteria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Loteca</h1>
+<h3>Simulador de Loteria </h3>
+</header>
+<div class="numeros ">
+    <input type="number" id="num1" onchange="getNum(value,1)">
+    <input type="number" id="num2"onchange="getNum(value,3)">
+    <input type="number" id="num3"onchange="getNum(value,4)">
+    <input type="number" id="num4"onchange="getNum(value,5)">
+    <input type="number" id="num5"onchange="getNum(value,6)">
+    
 
-header > h1 {
-   font-size: 5rem;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: bold;
-   font-variant: small-caps;
-   margin-bottom: 10px;
-}
 
-header > h3 {
-    font-size: 2rem;
-    margin-top: 10px;
-}
+</div>
 
+<div class="sorteio">
+  <button class="btnsort" onclick ="sorteioNum()">Sortear</button> 
+  <p id="numsort"></p>
+</div>
 
-input {
-    width: 4rem;
-    height: 4rem;
-    font-size: 4rem;
+<div class="vericacao">
+<p>Total de acertos foi:<span id="total "></span> </p> 
+</div>
 
-}
-
-.numeros{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-left: 22%;
-    padding-right: 22%;
-}
-
-.sorteio, .verificacao{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.btnsort{
-    padding: 2px 11px;
-    font-size: 2em;
-    margin-top: 10px;
-    background-color: rgb(17, 17, 119);
-    color: white;
-}
-
-.p{
-     font-size: 2em;
-     color: white;
-}
-
+<script src ="funcoes.js"></script>
+</body>
+</html>
