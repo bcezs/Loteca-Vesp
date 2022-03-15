@@ -11,6 +11,7 @@ function sorteioNum(){
     }while(numSort.length<6)
 
     document.getElementById("numsort").innerHTML=numSort
+    verificaAcertos()
 
 
 
