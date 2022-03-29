@@ -21,7 +21,7 @@ Simulator de loteria que o usuarios que escolhe seis números e o programa sorte
 
 | Tela Inicial | Primeiro Test   |
 |--------------|-----------------|
-| ![tela inicial do site](/img/tela 1.png) | ![tela preechida do site](https://raw.githubusercontent.com/bcezs/Loteca-Vesp/master/img/tela%202.png)       |
+| ![tela inicial do site](/img/tela 1.png)     | ![tela preechida do site] (https://raw.githubusercontent.com/bcezs/Loteca-Vesp/master/img/tela%202.png)       |
 
 
 
