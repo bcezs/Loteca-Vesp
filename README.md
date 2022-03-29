@@ -22,3 +22,20 @@ Simulator de loteria que o usuarios que escolhe seis números e o programa sorte
 | Tela Inicial | Primeiro Test   |
 |--------------|-----------------|
 | Imagem 1     | Imagem 2        |
+
+
+
+### codigo principal
+```js:
+function verificaAcertos() {
+    let cont = 0;
+    numDig.forEach(function (valor, index) {
+        if (numSort.includes(valor)) {
+            cont = cont + 1;
+
+        }
+
+    });
+    document.getElementById("total").innerText = cont;
+}
+```
