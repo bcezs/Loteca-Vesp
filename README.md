@@ -21,7 +21,7 @@ Simulator de loteria que o usuarios que escolhe seis números e o programa sorte
 
 | Tela Inicial | Primeiro Test   |
 |--------------|-----------------|
-| Imagem 1     | Imagem 2        |
+| ![tela inicial do site](/img/tela 1.png)     | Imagem 2        |
 
 
 
